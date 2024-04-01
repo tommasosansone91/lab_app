@@ -18,6 +18,25 @@ It is based on Flask, so it is not meant to be put on production environments.
 
 The app stores data into the file lab_app.db
 
+### web server - reverse proxy
+
+nginx
+
+file with configurations for this app
+
+> lab_app_nginx.conf
+
+general config file
+
+> /etc/nginx/nginx.conf
+
+
+### application server
+
+uWSGI
+
+> lab_app_uwsgi.ini
+
 ### socket file
 
 the app will create a socket file at path /var/www/lab_app/lab_app_uwsgi.sock
