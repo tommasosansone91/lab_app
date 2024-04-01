@@ -10,7 +10,7 @@ The app records value of temperature and humidity whenever the lab_env_db/ API i
 
 ### install
 
-The app should be installed in /var/www/ and exposed on port 8080.
+The app should be installed in /var/www/ and exposed on internal port 8080, external port 80.
 
 It is based on Flask, so it is not meant to be put on production environments.
 
